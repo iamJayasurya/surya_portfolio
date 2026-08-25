@@ -3,7 +3,6 @@
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "@/lib/gsap";
 import { useGSAP } from "@gsap/react";
-import PhotonBeam from "./ui/photon-beam";
 import { profile } from "@/lib/data";
 
 export default function Hero() {
@@ -307,22 +306,7 @@ export default function Hero() {
           BACKGROUND
       ========================================================= */}
 
-      <div className="pointer-events-none absolute inset-0 z-99">
-       <PhotonBeam
-  colorBg="#000000"
-  colorLine="#0A2818"
-  colorSignal="#1DB954"
-  colorSignal2="#1ED760"
-  colorSignal3="#0D7A3A"
-  lineCount={55}
-  spreadHeight={35}
-  signalCount={55}
-  speedGlobal={0.18}
-  trailLength={2}
-  bloomStrength={1.2}
-  bloomRadius={0.35}
-/>
-      </div>
+      
 
       {/* Dark overlay */}
       <div
