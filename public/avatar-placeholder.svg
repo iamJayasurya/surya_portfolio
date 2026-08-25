@@ -1,0 +1,19 @@
+<svg width="520" height="620" viewBox="0 0 520 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="avatar-glow" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#22D3EE" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="avatar-ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#22D3B8"/>
+    </linearGradient>
+  </defs>
+  <circle cx="260" cy="270" r="230" fill="url(#avatar-glow)"/>
+  <circle cx="260" cy="270" r="230" fill="none" stroke="url(#avatar-ring)" stroke-width="1.5" opacity="0.5"/>
+  <g fill="#05070A" fill-opacity="0.92">
+    <path d="M260 90 c-58 0 -96 46 -96 108 c0 46 20 82 50 104 c-88 22 -150 78 -150 190 v128 h392 v-128 c0 -112 -62 -168 -150 -190 c30 -22 50 -58 50 -104 c0 -62 -38 -108 -96 -108 z"/>
+  </g>
+  <circle cx="260" cy="270" r="230" fill="none" stroke="#0A0A0B" stroke-width="10"/>
+</svg>

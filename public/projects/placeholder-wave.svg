@@ -1,0 +1,22 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0A0B"/>
+      <stop offset="100%" stop-color="#0D1220"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60A5FA" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="20%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg2)"/>
+  <circle cx="160" cy="420" r="260" fill="url(#glow2)"/>
+  <path d="M0 300 C 150 220, 250 380, 400 280 S 650 180, 800 260" stroke="url(#wave1)" stroke-width="2" fill="none"/>
+  <path d="M0 360 C 180 300, 260 420, 420 340 S 640 260, 800 320" stroke="url(#wave1)" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M0 240 C 140 180, 300 300, 460 220 S 660 140, 800 200" stroke="url(#wave1)" stroke-width="1" fill="none" opacity="0.4"/>
+</svg>

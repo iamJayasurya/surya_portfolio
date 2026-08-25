@@ -1,0 +1,26 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0A0B"/>
+      <stop offset="100%" stop-color="#0E1424"/>
+    </linearGradient>
+    <radialGradient id="glow3" cx="70%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots3" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#3B82F6" opacity="0.35"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg3)"/>
+  <circle cx="560" cy="150" r="240" fill="url(#glow3)"/>
+  <rect width="800" height="500" fill="url(#dots3)"/>
+  <g stroke="#3B82F6" stroke-width="1.2" opacity="0.7" fill="none">
+    <polygon points="560,80 620,115 620,185 560,220 500,185 500,115"/>
+    <polygon points="460,220 520,255 520,325 460,360 400,325 400,255"/>
+  </g>
+  <g fill="#22D3EE">
+    <circle cx="560" cy="80" r="3"/>
+    <circle cx="460" cy="220" r="3"/>
+  </g>
+</svg>
