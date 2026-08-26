@@ -42,6 +42,15 @@ export default function Contact() {
           >
             {profile.github}
           </a>
+          <a
+            href={`${profile.resume}`}
+            target="_blank"
+            type="file"
+            rel="noreferrer"
+            className="btn-ghost rounded-sm px-6 py-3  text-sm text-text focus-ring rounded-[8px] transition duration-300 hover:border-[#1ed760]/75 hover:bg-[#1ed760]/10"
+          >
+            Resume
+          </a>
         </Reveal>
 
         <p className="mt-16 border-t border-line py-6 font-mono text-xs text-muted">

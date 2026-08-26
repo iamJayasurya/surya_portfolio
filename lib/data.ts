@@ -5,7 +5,8 @@ export const profile = {
   location: "Coimbatore, Tamil Nadu",
   email: "j.jayasurya127@gmail.com",
   phone: "+91 63854 60252",
-  github: "github.com/jayasurya",
+  github: "github.com/iamJayasurya",
+  resume:"/files/surya-resume.pdf",
   summary:
     "Results-driven MERN Stack Web Developer with 2 years 4 months of hands-on experience delivering 25+ production projects — 12 built with Next.js, 3 with Vite.js, 3 with plain HTML/CSS/JS, and 12 with PHP. Skilled in designing responsive, scalable web applications and admin dashboards with role-based access, CRUD, and SaaS patterns.",
   tagline:

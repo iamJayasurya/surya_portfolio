@@ -272,9 +272,6 @@ export default function About() {
 
       <div className="relative z-10 mx-auto w-full max-w-5xl">
         <div className="grid gap-16 lg:grid-cols-[1.15fr_0.85fr] lg:gap-10">
-          {/* ===================================================
-              LEFT — CONTENT
-          =================================================== */}
           <div>
             <p className="font-mono text-xs uppercase tracking-[0.25em] text-accent">
               <span className="text-muted">~/</span>about
@@ -300,7 +297,17 @@ export default function About() {
               "
             >
               {profile.summary ||
-                "I'm a Full Stack Web Developer passionate about building fast, scalable and meaningful digital experiences. I work across modern frontend and backend technologies to create clean, responsive and high-performance web applications."}
+                "I'm a Full Stack Web Developer passionate about building fast, scalable and meaningful digital experiences. I work across modern frontend and backend technologies to create clean, responsive and high-performance web applications."} <br /> <br />
+              <a
+
+                href={`/files/surya-resume.pdf`}
+                target="_blank"
+                type="file"
+                rel="noreferrer"
+                className="btn-ghost my-3 rounded-sm px-6 py-3  text-sm text-text focus-ring rounded-[8px] transition duration-300 hover:border-[#1ed760]/75 hover:bg-[#1ed760]/10"
+              >
+                My Resume
+              </a>
             </p>
 
             {/* STATS */}
@@ -437,9 +444,7 @@ export default function About() {
             </a> */}
           </div>
 
-          {/* ===================================================
-              RIGHT — TERMINAL PANEL (replaces portrait)
-          =================================================== */}
+        
           <div className="lg:pt-2">
             <div
               ref={terminalRef}
