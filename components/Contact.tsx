@@ -6,7 +6,7 @@ import Reveal from "./Reveal";
 export default function Contact() {
 
   return (
-    <section id="contact" className="px-6 py-10  sm:py-15 md:pt-20 bg-[#000]" >
+    <section id="contact" className="px-6 pt-10  sm:pt-15 md:pt-20 bg-[#000]" >
       <div className="mx-auto max-w-5xl">
         <Reveal as="p" className="font-mono text-xs uppercase tracking-[0.3em] text-accent2">
           Contact
@@ -45,7 +45,7 @@ export default function Contact() {
         </Reveal>
 
         <p className="mt-16 border-t border-line py-6 font-mono text-xs text-muted">
-          © {new Date().getFullYear()} {profile.name} · built with Next.js
+          © {new Date().getFullYear()} <span className="text-[#fff]">{profile.name}</span> · built with Next.js
         </p>
       </div>
     </section>

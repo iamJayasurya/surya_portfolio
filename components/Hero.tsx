@@ -366,7 +366,10 @@ export default function Hero() {
           items-center
           justify-between
           px-5
-          pt-6
+          pt-6 
+
+          max-md:relative
+          max-md:top-[70px]
           sm:px-8
           lg:px-12
           xl:px-16
@@ -652,7 +655,8 @@ export default function Hero() {
             className="
               select-none
               whitespace-nowrap
-              text-[clamp(3.3rem,6vw,6rem)]
+              sm:text-[clamp(3.3rem,6vw,6rem)]
+              text-[clamp(2.7rem,3vw,3rem)]
               font-black
               uppercase
               leading-[0.75]
