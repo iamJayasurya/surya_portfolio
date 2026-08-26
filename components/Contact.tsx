@@ -49,7 +49,7 @@ export default function Contact() {
             rel="noreferrer"
             className="btn-ghost rounded-sm px-6 py-3  text-sm text-text focus-ring rounded-[8px] transition duration-300 hover:border-[#1ed760]/75 hover:bg-[#1ed760]/10"
           >
-            Resume
+           My Resume
           </a>
         </Reveal>
 

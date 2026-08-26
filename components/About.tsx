@@ -298,16 +298,7 @@ export default function About() {
             >
               {profile.summary ||
                 "I'm a Full Stack Web Developer passionate about building fast, scalable and meaningful digital experiences. I work across modern frontend and backend technologies to create clean, responsive and high-performance web applications."} <br /> <br />
-              <a
-
-                href={`/files/surya-resume.pdf`}
-                target="_blank"
-                type="file"
-                rel="noreferrer"
-                className="btn-ghost my-3 rounded-sm px-6 py-3  text-sm text-text focus-ring rounded-[8px] transition duration-300 hover:border-[#1ed760]/75 hover:bg-[#1ed760]/10"
-              >
-                My Resume
-              </a>
+            
             </p>
 
             {/* STATS */}
@@ -492,10 +483,19 @@ export default function About() {
                     </p>
                   </div>
                 ))}
+                   
 
-                <p className="pt-2 text-muted">
+                <p className="py-3 text-muted">
                   <span className="text-accent">❯</span>{" "}
-                  <span className="animate-blink text-accent">_</span>
+                   <a
+            href={`/files/surya-resume.pdf`}
+            target="_blank"
+            type="file"
+            rel="noreferrer"
+            className="ml-1 text-sm text-text focus-ring  border rounded-[5px] px-4 py-2  border-[#fff]/70 transition duration-300 hover:text-[#1ed760]"
+          >
+            My Resume
+          </a>
                 </p>
               </div>
             </div>
