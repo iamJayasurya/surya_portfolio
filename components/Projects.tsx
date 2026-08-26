@@ -65,7 +65,7 @@ export default function Projects() {
   };
 
   return (
-    <section id="projects" className="relative overflow-hidden px-6 pt-25  sm:pt-30 md:pt-40 bg-[#000]">
+    <section id="projects" className="relative overflow-hidden px-6 py-10  sm:py-15 md:pt-20 bg-[#000]">
       <GlowField />
       <div className="relative mx-auto max-w-5xl">
         <Reveal as="p" className="font-mono text-xs uppercase tracking-[0.3em] text-accent2">
